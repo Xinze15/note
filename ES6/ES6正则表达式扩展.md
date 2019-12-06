@@ -18,7 +18,7 @@ let a2=/b+/y;
 console.log('one',a1.exec(s),a2.exec(s));//bbb bbb
 console.log('two',a1.exec(s),a2.exec(s));//bb null
 ```
->   g 修饰符之前匹配的随意位子开始匹配，而y修饰符必须从之前匹配的下一个开始匹配。
+>   g 修饰符之前匹配的随意位子开始匹配，而y修饰符必须从之前匹配的下一个位子开始匹配。
 
 新增属性sticky 判断字符串有没有开启u修饰符。
 
